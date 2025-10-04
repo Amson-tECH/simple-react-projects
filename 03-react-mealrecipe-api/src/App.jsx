@@ -1,9 +1,10 @@
 import React from 'react'
+import Recipe from './Components/Recipe'
 
 const App = () => {
   return (
     <div>
-      God
+      <Recipe /> 
     </div>
   )
 }

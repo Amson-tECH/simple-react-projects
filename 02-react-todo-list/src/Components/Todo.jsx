@@ -5,7 +5,7 @@ function generateId() {
   return Math.floor(Math.random() * 10);
 }
 
-function Todo() {
+function  Todo() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
 
@@ -28,11 +28,12 @@ function Todo() {
       <input
         type="text"
         value={input}
-        onChange={(e) => setInput(e.target.value)}
+        onChange={(e) =>{
+        setInput(e.target.value)}}
         placeholder="New Todo"
       />
 
-      <button onClick={handleSubmit}>Submit</button>
+      <button onClick={handleSubmit} onSubmit={(e) => e.preventDefault()}>Submit</button>
 
       <ul className="todos-list">
         {todos.map(({ text, id }) => (
@@ -43,6 +44,7 @@ function Todo() {
             </button>
           </li>
         ))}
+        
       </ul>
     </div>
   );

@@ -201,7 +201,7 @@ npm start
       <h3 align="center">Form Validation</h3>
       <img src="./screenshots/form-validation.png" alt="Form Validation" />
     </td>
-    <td width="50%">
+  
     </td>
   </tr>
 </table>

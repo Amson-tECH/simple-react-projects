@@ -33,6 +33,9 @@ This repository contains beginner to intermediate React projects that demonstrat
    - Functional calculator application
    - Complex state management and event handling
 
+5. **05-react-togglebackgroundcolor**
+   - It uses a theme toggle component that allows users to switch between light and dark modes by clicking a button, which dynamically changes the background color, text color, and button styling using React's useState hook.
+
 
 
 ## 🛠️ Technologies Used
@@ -75,6 +78,7 @@ react-projects-portfolio/
 ├── 02-react-todo-list/
 ├── 03-react-mealrecipe-api/
 ├── 04-react-calculator/
+├── 05-react-togglebackgroundcolor/
 ├── and counting ...
 └── README.md
 ```
@@ -105,14 +109,14 @@ Through these projects, I'm learning:
 - [x] Project 2: Todo List
 - [x] Project 3: Meal Recipe API
 - [x] Project 4: Calculator
-- [ ] Project 5: Coming Soon
+- [x] Project 5: Toggle Background Color (Dark mode & Light mode)
 - [ ] Project 6: Coming Soon
 - [ ] Project 7: Coming Soon
 - [ ] Project 8: Coming Soon
 - [ ] Project 9: Coming Soon
 - [ ] Project 10: Coming Soon
 
-**Current Progress: 40% Complete (4/10)**
+**Current Progress: 50% Complete (5/10)**
 
 ## 💡 Key Takeaways
 
@@ -133,4 +137,4 @@ Each project has taught me valuable lessons:
 ---
 
 *Last Updated: October 2025*  
-*Status: 4/10 Projects Complete* 🚀
+*Status: 5/10 Projects Complete* 🚀

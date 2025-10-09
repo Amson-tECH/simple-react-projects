@@ -151,7 +151,9 @@ npm install
 npm start
 ```
 
+## 💻 Running Projects Locally
 
+Each project can be run independently. Follow the installation steps above to test any project on your local machine.
 
 ## 📸 Project Previews
 
@@ -200,8 +202,6 @@ npm start
     <td width="50%">
       <h3 align="center">Form Validation</h3>
       <img src="./screenshots/form-validation.png" alt="Form Validation" />
-    </td>
-  
     </td>
   </tr>
 </table>
